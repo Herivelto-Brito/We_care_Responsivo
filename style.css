@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  margin: 44px 0 90px 100px;
+}
+
+.link-header {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #989d9c;
+  text-decoration: none;
+  margin-right: 26px;
+  cursor: pointer;
+}
+
+.link-header:hover {
+  transition: 0.5s;
+  color: #555757;
+}
+
+header button {
+  background: #665ae1;
+  border-radius: 20.5px;
+  width: 130px;
+  height: 41px;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  cursor: pointer;
+}
+
+header button:hover {
+  background: #9891e2;
+  transition: 0.5s;
+}
+header button:active {
+  background: #665ae1;
+  transition: 0.2s;
+}
+
+.logo-image {
+  width: 538px;
+  height: 470px;
+  margin-left: 115px;
+  display: inline-block;
+}
+
+section {
+  display: inline-block;
+  margin-left: 86px;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 122px;
+  color: #515151;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 71px;
+  color: #515151;
+}
+
+p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #848484;
+  width: 515px;
+  margin-top: 47px;
+  margin-bottom: 55px;
+}
+
+section button {
+  background: #adff00;
+  border-radius: 30px;
+  width: 229px;
+  height: 44px;
+  border: none;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  color: #000000;
+  cursor: pointer;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+section button:hover {
+  transition: 0.7s;
+  background: #cfee8d;
+}
+
+section button:active {
+  transition: 0.2s;
+  background: #adff00;
+}
+
+@media screen and (max-width: 710px) {
+  header {
+    display: none;
+  }
+
+  main {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .logo-image {
+    width: 324px;
+    height: 307px;
+    margin: 149px auto 0 auto;
+    display: block;
+  }
+
+  h1 {
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 61px;
+    margin-top: 24px;
+  }
+  h2 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    margin-top: 10px;
+    margin-bottom: 32px;
+  }
+  p {
+    display: none;
+  }
+  section button {
+    width: 239px;
+    height: 64px;
+  }
+}
